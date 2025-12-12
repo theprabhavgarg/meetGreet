@@ -1,0 +1,159 @@
+{
+  "selfAssessmentQuestions": [
+    {
+      "id": "q1",
+      "question": "How would you describe your weekend plans?",
+      "options": [
+        { "id": "a", "text": "Exploring new cafes and restaurants", "points": 5 },
+        { "id": "b", "text": "Relaxing at home with a good book", "points": 3 },
+        { "id": "c", "text": "Adventure activities and outdoor sports", "points": 4 },
+        { "id": "d", "text": "Meeting friends and socializing", "points": 5 }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "What's your ideal conversation topic?",
+      "options": [
+        { "id": "a", "text": "Tech, startups, and innovation", "points": 4 },
+        { "id": "b", "text": "Books, movies, and pop culture", "points": 3 },
+        { "id": "c", "text": "Travel stories and experiences", "points": 5 },
+        { "id": "d", "text": "Philosophy and deep thoughts", "points": 3 }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "How do you prefer to work?",
+      "options": [
+        { "id": "a", "text": "Collaborative team environment", "points": 5 },
+        { "id": "b", "text": "Independent and focused", "points": 3 },
+        { "id": "c", "text": "Mix of both", "points": 4 },
+        { "id": "d", "text": "Leading and guiding others", "points": 4 }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "What energizes you?",
+      "options": [
+        { "id": "a", "text": "Meeting new people", "points": 5 },
+        { "id": "b", "text": "Quiet time alone", "points": 2 },
+        { "id": "c", "text": "Learning something new", "points": 4 },
+        { "id": "d", "text": "Achieving goals", "points": 4 }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Your communication style is:",
+      "options": [
+        { "id": "a", "text": "Direct and to the point", "points": 3 },
+        { "id": "b", "text": "Warm and friendly", "points": 5 },
+        { "id": "c", "text": "Thoughtful and analytical", "points": 3 },
+        { "id": "d", "text": "Humorous and light", "points": 4 }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "How do you handle disagreements?",
+      "options": [
+        { "id": "a", "text": "Open discussion to find middle ground", "points": 5 },
+        { "id": "b", "text": "Need time to process before responding", "points": 3 },
+        { "id": "c", "text": "Direct confrontation to resolve quickly", "points": 3 },
+        { "id": "d", "text": "Prefer to avoid conflict", "points": 2 }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "What's your approach to new experiences?",
+      "options": [
+        { "id": "a", "text": "Jump in without overthinking", "points": 5 },
+        { "id": "b", "text": "Research thoroughly first", "points": 3 },
+        { "id": "c", "text": "Go if friends join", "points": 4 },
+        { "id": "d", "text": "Prefer familiar experiences", "points": 2 }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "Your stress relief method:",
+      "options": [
+        { "id": "a", "text": "Physical exercise", "points": 4 },
+        { "id": "b", "text": "Talking with friends", "points": 5 },
+        { "id": "c", "text": "Creative activities", "points": 4 },
+        { "id": "d", "text": "Meditation or quiet time", "points": 3 }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "In a group setting, you are:",
+      "options": [
+        { "id": "a", "text": "The organizer", "points": 4 },
+        { "id": "b", "text": "The listener", "points": 3 },
+        { "id": "c", "text": "The entertainer", "points": 5 },
+        { "id": "d", "text": "The peacemaker", "points": 4 }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "What matters most in friendships?",
+      "options": [
+        { "id": "a", "text": "Loyalty and trust", "points": 5 },
+        { "id": "b", "text": "Shared interests", "points": 4 },
+        { "id": "c", "text": "Growth and learning together", "points": 4 },
+        { "id": "d", "text": "Having fun and laughter", "points": 5 }
+      ]
+    }
+  ],
+  "preferenceQuestions": [
+    {
+      "id": "p1",
+      "question": "I prefer to meet people who are:",
+      "options": [
+        "Outgoing and energetic",
+        "Calm and thoughtful",
+        "Ambitious and driven",
+        "Creative and artistic"
+      ]
+    },
+    {
+      "id": "p2",
+      "question": "Ideal meetup vibe:",
+      "options": [
+        "Lively conversation over coffee",
+        "Quiet walk in the park",
+        "Networking at professional events",
+        "Fun activities like bowling or escape rooms"
+      ]
+    },
+    {
+      "id": "p3",
+      "question": "I connect best with people who:",
+      "options": [
+        "Share similar career goals",
+        "Have diverse perspectives",
+        "Are laid-back and easygoing",
+        "Challenge me intellectually"
+      ]
+    },
+    {
+      "id": "p4",
+      "question": "Conversation depth I prefer:",
+      "options": [
+        "Deep, meaningful discussions",
+        "Light and fun banter",
+        "Mix of both",
+        "Professional and focused"
+      ]
+    },
+    {
+      "id": "p5",
+      "question": "Meetup frequency preference:",
+      "options": [
+        "Weekly regular meetups",
+        "Monthly casual hangouts",
+        "Spontaneous when time allows",
+        "Occasional for special events"
+      ]
+    }
+  ]
+}
+
+
+

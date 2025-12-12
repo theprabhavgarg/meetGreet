@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FAF8F2;
+  color: #4C4C4C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+input, textarea, select {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F6DFA4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D8CCF2;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-primary text-text font-semibold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-all duration-200 shadow-md hover:shadow-lg;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-text font-semibold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-all duration-200 shadow-md hover:shadow-lg;
+}
+
+.btn-accent {
+  @apply bg-accent text-text font-semibold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-all duration-200 shadow-md hover:shadow-lg;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-200 hover:shadow-xl;
+}
+
+/* Input styles */
+.input-field {
+  @apply w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-primary focus:outline-none transition-colors duration-200;
+}
+
+/* Swipe card animations */
+@keyframes swipeRight {
+  to {
+    transform: translateX(200%) rotate(20deg);
+    opacity: 0;
+  }
+}
+
+@keyframes swipeLeft {
+  to {
+    transform: translateX(-200%) rotate(-20deg);
+    opacity: 0;
+  }
+}
+
+.swipe-right {
+  animation: swipeRight 0.3s ease-out forwards;
+}
+
+.swipe-left {
+  animation: swipeLeft 0.3s ease-out forwards;
+}
+
+
+
