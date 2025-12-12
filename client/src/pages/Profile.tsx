@@ -4,7 +4,6 @@ import Layout from '../components/Layout/Layout';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import {
-  FaUser,
   FaBriefcase,
   FaGraduationCap,
   FaMapMarkerAlt,
@@ -17,7 +16,6 @@ import {
 import { useNavigate } from 'react-router-dom';
 
 const Profile: React.FC = () => {
-  const { user } = useAuth();
   const navigate = useNavigate();
   const [profileData, setProfileData] = useState<any>(null);
   const [loading, setLoading] = useState(true);

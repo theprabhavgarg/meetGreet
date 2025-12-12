@@ -14,7 +14,7 @@ const ProfileSetup: React.FC = () => {
     setLoading(true);
     try {
       // Mark profile as complete with minimal data
-      const response = await axios.put('/api/users/complete-profile', {
+      await axios.put('/api/users/complete-profile', {
         dateOfBirth: '1990-01-01',
         gender: 'prefer-not-to-say',
         city: 'Not specified',

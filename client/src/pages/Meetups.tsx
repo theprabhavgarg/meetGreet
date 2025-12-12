@@ -29,6 +29,7 @@ const Meetups: React.FC = () => {
 
   useEffect(() => {
     fetchMeetups();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter]);
 
   const fetchMeetups = async () => {

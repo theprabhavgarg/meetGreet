@@ -6,7 +6,7 @@ import Layout from '../components/Layout/Layout';
 import { FaPaperPlane, FaArrowLeft } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
-interface Chat {
+interface ChatItem {
   id: string;
   otherUser: {
     id: string;
@@ -32,7 +32,7 @@ interface Message {
 const Chat: React.FC = () => {
   const { chatId } = useParams();
   const navigate = useNavigate();
-  const [chats, setChats] = useState<Chat[]>([]);
+  const [chats, setChats] = useState<ChatItem[]>([]);
   const [selectedChat, setSelectedChat] = useState<string | null>(chatId || null);
   const [messages, setMessages] = useState<Message[]>([]);
   const [newMessage, setNewMessage] = useState('');
